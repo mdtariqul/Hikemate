@@ -1,0 +1,139 @@
+body{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(signupback.jpg);
+    background-size: cover;
+    
+    position: fixed;
+}
+
+.container a{
+    
+  
+    margin-left: 78%;
+    margin-top: 43%;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 11, 18);
+    position: absolute;
+    text-align: center;
+}
+
+.container a:hover{
+    cursor: pointer;
+    background: #040111;
+    color: #000;
+    
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+}
+
+.header p{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 50px;
+}  
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+    
+    
+    }
+
+#box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+    
+    
+}
+
+#top{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+    font-size: 20px;
+}
+
+
+#box
+{
+   
+    width: 600px;
+    height:600px;
+   /* background: rgb(179, 211, 224);*/
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+#text
+{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+    
+   
+    
+}
+
+#botton
+{
+
+   
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px 50px;
+    background: rgb(0, 11, 18);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+
+#botton:hover{
+cursor: pointer;
+background: #220c81;
+color: #000;
+background-color: white;
+box-shadow: 0 0 5px,
+            0 0 20px,
+            0 0 60px,
+            00 0 150px;
+
+}

@@ -1,0 +1,187 @@
+body{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(back1.jpg);
+    background-size: cover;
+    
+    position: fixed;
+}
+
+
+
+
+#botton
+{
+
+   
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(20, 159, 240);
+    color: #fff;
+    font-size: 18px;
+    
+    border-radius: 20px;
+
+
+}
+
+#botton:hover{
+cursor: pointer;
+background: #220c81;
+color: #000;
+background-color: white;
+box-shadow: 0 0 5px,
+            0 0 20px,
+            0 0 60px,
+            00 0 150px;
+
+}
+
+.container a{
+    
+  
+    margin-left: 77%;
+    margin-top: 43%;
+
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background: rgb(20, 159, 240);
+    position: absolute;
+    text-align: center;
+}
+
+.container a:hover{
+    cursor: pointer;
+    background: #220c81;
+    color: #000;
+    
+    
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+    }
+
+.header p{
+        margin-left: 20px;
+       /* color: #0c0d0e;*/
+       color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: bold;
+} 
+
+.container p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+
+
+#box
+{
+   
+    width: 320px;
+    height:460px;
+    background: rgb(179, 211, 224);
+    color: #fff;
+    top: 50%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+#text
+{
+    border: none;
+    border-bottom: 1px solid rgb(8, 2, 2);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(15, 14, 14);
+    font-size: 16px;
+
+    
+   
+    
+}
+
+
+
+
+ 
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -  50px);
+
+}
+
+
+h1{
+    margin: 0;
+  padding: 0 0 10px;
+    text-align: center;
+}
+
+form p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+color: #fff;
+
+
+
+}
+#mes p{
+   color:rgb(255, 0, 0);
+   margin:0;
+   padding: 0 0 10px;
+   text-align:center;
+   font-size:19px;
+   
+}
+
+
+.container p{
+ margin: 0;
+padding: 0;
+font-weight: bold;
+color: rgb(136, 24, 24);
+
+     
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+a{
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 20px;
+   color: rgb(8, 8, 8); 
+}
+a:hover{
+    color:#0e37ee;
+}
+

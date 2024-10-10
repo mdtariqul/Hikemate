@@ -1,0 +1,263 @@
+body {
+    
+    background-image: url(1.jpg);
+    background-size: cover;
+    position: relative;
+
+
+
+
+    /*<?php  echo"<h2>{$user_data['Fullname']}</h2>";
+echo"<img src='{$user_data['img']}'width='41%' height='40%'  border-radius: 50%;>" ?><br>
+<input id="caption" type="text" name="caption">
+<a href="chatbox.php">inbox</a>
+<a href="logout.php">logout</a>
+    */
+}
+
+.header p {
+    margin-left: 20px;
+    /* color: #0c0d0e;*/
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(136, 24, 24);
+
+
+}
+
+.container {
+    display: flex;
+    border-color: black;
+    border-bottom: 10px solid rgb(8, 2, 2);
+    /*background: transparent;*/
+    background-color: aquamarine;
+    /*border-radius: 5%;*/
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*margin-left: 1230px;*/
+}
+
+.container a {
+    font-size: 20px;
+    margin-left: 65%;
+    margin-top: 10px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.post {
+    width: 800px;
+    height: 970px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: darkslategray;
+    border-radius: 5%;
+   
+    
+}
+
+.poster_description {
+    display: flex;
+    border-color: black;
+    border-bottom: 5px solid rgb(8, 2, 2);
+
+}
+
+.post_area {
+    margin-left: 10%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 950px;
+    max-height: 1000px;
+    
+    overflow-y: auto;
+}
+
+.post_area::-webkit-scrollbar {
+    width: 5px;
+    color: #000;
+}
+
+#post_img {
+    width: 720px;
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+
+#poster_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.poster_description a {
+    
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    max-height: 10px;
+    padding: 0;
+    margin: 0;
+
+
+}
+.poster_description p {
+    
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    max-height: 10px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.post p {
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 25px;
+    padding-right: 5px;
+    
+}
+
+.post p::-webkit-scrollbar {
+    width: 0px;
+    color: #000;
+}
+
+.timmline{
+    display: flex;
+}
+
+
+form{
+    margin-bottom: 10px;
+    background-color: darkslategray;
+    border-radius: 5%;
+    margin-left: 10px;
+    width: 400px;
+    height: 500px;
+    padding-top: 8px;
+    padding-left: 10px
+ 
+
+
+}
+
+#caption{
+
+
+    max-height: 250px;
+    overflow-y: auto;
+    background: transparent;
+    outline: none;
+    height: 250px;
+    width: 380px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5%;
+    align-self: start;
+    text-align: initial;
+    max-width: 370;
+    text-decoration: dashed;
+    font-size: 25px;
+    padding-right: 15px;
+
+    
+
+}
+
+#caption::-webkit-scrollbar {
+    width: 0px;
+    color: #000;
+}
+
+
+form p{
+    font-size: 20px;
+    font-weight: 1000;
+    
+}
+
+#botton
+{
+
+   margin-top: 75px;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px 50px;
+    background: rgb(0, 11, 18);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 390px;
+    text-decoration: none;
+
+
+}
+#botton:hover{
+    cursor: pointer;
+    background: #220c81;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+}
+
+#logout
+{
+
+   
+   margin-left: 90%;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px 50px;
+    background: rgb(16, 236, 64);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 390px;
+    text-decoration: none;
+
+
+}
+
+#logout:hover{
+    cursor: pointer;
+    background: #beb7df;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+}

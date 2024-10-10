@@ -1,0 +1,97 @@
+.container p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.header p{
+    margin-left: 20px;
+    color: #0c0d0e;
+    font-size: 50px
+    
+}
+
+body{
+
+    background-image: url(cpb.png);
+    background-size: cover;
+}
+
+.box{
+   background-color:transparent; 
+   width: 500px;
+   height: 500px;
+   left:50%;
+   top:45%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   padding: 70px 30px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#text
+{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255,255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 500px;
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#botton
+{
+border: none;
+outline: none;
+height: 40px;
+padding: 10px 50px;
+width: 500px;
+border-radius: 50px;
+background: rgb(243, 225, 68);
+font-size: 16px;
+
+}
+
+#botton:hover{
+cursor: pointer;
+background-color: rgb(238, 108, 108);
+box-shadow: 0 0 5px,
+            0 0 20px,
+            0 0 60px,
+            00 0 150px;
+
+}
+
+#mes p{
+    color: rgb(0, 0, 0); 
+    margin:0;
+    padding: 0 0 10px;
+    text-align:center;
+    font-size:19px;
+    text-align: center;
+    
+ }
+
+ a{
+    padding-left: 130px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(253, 2, 2); 
+ }
+ a:hover{
+     color:#ffffff;
+ }
+ 

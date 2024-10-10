@@ -1,0 +1,223 @@
+body {
+    background-color: aquamarine;
+    background-image: url(1.jpg);
+    background-size: cover;
+    position: relative;
+
+
+
+
+    /*<?php  echo"<h2>{$user_data['Fullname']}</h2>";
+echo"<img src='{$user_data['img']}'width='41%' height='40%'  border-radius: 50%;>" ?><br>
+<a href="chatbox.php">inbox</a>
+<a href="logout.php">logout</a>
+    */
+}
+
+.header p {
+    margin-left: 20px;
+    /* color: #0c0d0e;*/
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(136, 24, 24);
+
+
+}
+
+.container {
+    display: flex;
+    border-color: black;
+    border-bottom: 1px solid rgb(8, 2, 2);
+    background-color: aquamarine;
+}   
+
+#profile_pic{
+    margin-left: 17%;
+    margin-top: 25px;
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.container a{
+
+   
+    margin-left: 32%;
+    margin-top: 1%;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 50px;
+    padding: 10px 50px;
+    background: rgb(1, 53, 12);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 35px;
+   
+    text-decoration: none;
+
+
+}
+
+#a:hover{
+    cursor: pointer;
+    background: #beb7df;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+}
+
+
+
+.post {
+    width: 800px;
+    height: 970px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: darkslategray;
+    border-radius: 5%;
+   
+    
+}
+
+.poster_description {
+    display: flex;
+    border-color: black;
+    border-bottom: 5px solid rgb(8, 2, 2);
+
+}
+
+.post_area {
+    margin-left: 10%;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 950px;
+    max-height: 1000px;
+    
+    overflow-y: auto;
+}
+
+.post_area::-webkit-scrollbar {
+    width: 5px;
+    color: #000;
+}
+
+#post_img {
+    width: 720px;
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+
+#poster_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.poster_description a {
+    
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    max-height: 10px;
+    padding: 0;
+    margin: 0;
+
+
+}
+.poster_description p {
+    
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    max-height: 10px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.post p {
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 25px;
+    padding-right: 5px;
+    
+}
+
+.post p::-webkit-scrollbar {
+    width: 0px;
+    color: #000;
+}
+
+.all{
+    display: flex;
+}
+
+.details{
+    background-color: darkslategray;
+    width: 900px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+#delete
+{
+
+   
+    margin-left: 270px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 70px;
+    padding: 10px 50px;
+    background: rgb(1, 53, 12);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 35px;
+   
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+#delete:hover{
+    cursor: pointer;
+    background: #beb7df;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 0 5px,
+                0 0 20px,
+                0 0 60px,
+                00 0 150px;
+    
+}
